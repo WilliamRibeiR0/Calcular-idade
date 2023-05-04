@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calcular idade</title>
+</head>
+<body>
+  <h1>Calcular idade</h1>
+  <main class="container">
+    <div class="input">
+      <label for="birthdate">Entre com sua idade:</label>
+      <input type="date" id="birthdate">
+    </div>
+    <ul>
+      <li id="anos">anos</li>
+      <li id="meses">meses</li>
+      <li id="dias">dias</li>
+      <li id="horas">horas</li>
+      <li id="minutos">minutos</li>
+      <li id="segundos">segundos</li>
+    </ul> 
+
+    <div class="btns">
+      <button onclick="calcular()">calcular</button>
+      <button onclick="resetar()">resetar</button>
+    </div>
+  </main>
+</body>
+</html>
