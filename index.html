@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Calcular idade</title>
+    </head>
+    <body>
+        <h1>Calcular idade </h1>
+        <img src="assets/Calculator-icon.png" alt="" style="height: 50px;">
+        
+
+        <main class="container">
+            <div class="input">
+                <label for="birthdate">Coloque sua data de aniversário</label>
+                <input type="date" id="dataAniversario" />
+            </div>
+            <ul>
+                <li><span id="ano"></span> Anos</li>
+                <li><span id="mes"></span> Meses</li>
+                <li><span id="dia"></span> Dias</li>
+                <li><span id="hora"></span> Horas</li>
+                <li><span id="minuto"></span> Minutos</li>
+                <li><span id="segundos"></span> Segundos</li>
+            </ul>
+
+            <div class="btns">
+                <button onclick="calcular()" id="calcular">calcular</button>
+                <button onclick="reset()" id="resetar">resetar</button>
+            </div>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
